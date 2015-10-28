@@ -1,0 +1,3 @@
+Funktio-generaattori:
+AD9833 (noin 10€ farnell)
+- DC-taso 2,5V ulostulossa josta otetaan ADC-muunnos. DC-tason poisto audio-ulostulosta.

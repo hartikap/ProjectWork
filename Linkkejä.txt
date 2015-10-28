@@ -1,0 +1,13 @@
+USB-funktio generaattori:
+http://tuomasnylund.fi/drupal6/content/ad9833-based-usb-function-generator
+- Voisi liittää suoraan raspberryyn
+	-> Python koodi tms ohjaamiseen
+
+Patchwerk: Multi-User Network Control of a Massive Modular Synthesizer:
+http://www.nime.org/proceedings/2012/nime2012_293.pdf
+
+real-time communication protocol (full-duplex)
+https://en.wikipedia.org/wiki/WebSocket
+
+Raspberry pi documentation:
+https://www.raspberrypi.org/documentation/hardware/raspberrypi/
