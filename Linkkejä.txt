@@ -11,3 +11,16 @@ https://en.wikipedia.org/wiki/WebSocket
 
 Raspberry pi documentation:
 https://www.raspberrypi.org/documentation/hardware/raspberrypi/
+
+Eurorack specs and examples:
+http://www.doepfer.de/DIY/a100_diy.htm
+
+https://www.thonk.co.uk/shop/caserail/
+http://www.sdiy.info/w/Eurorack_DIY_parts
+http://clicksclocks.de/
+http://www.thomann.de/fi/doepfer_a100_diy_kit_1.htm
+http://www.instructables.com/id/Build-your-own-low-cost-Eurorack-Suitcase/
+
+
+Eurorack explained:
+https://www.youtube.com/watch?v=SBTiaGG6T6A
