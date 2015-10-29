@@ -24,3 +24,9 @@ http://www.instructables.com/id/Build-your-own-low-cost-Eurorack-Suitcase/
 
 Eurorack explained:
 https://www.youtube.com/watch?v=SBTiaGG6T6A
+
+On synthesizer theory&applications:
+http://electronotes.netfirms.com/free.htm
+
+VCO:
+http://www.birthofasynth.com/Thomas_Henry/Pages/VCO-1.html#Voltage_Controlled_Oscillator:_VCO-1
