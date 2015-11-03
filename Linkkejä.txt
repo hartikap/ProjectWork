@@ -30,3 +30,6 @@ http://electronotes.netfirms.com/free.htm
 
 VCO:
 http://www.birthofasynth.com/Thomas_Henry/Pages/VCO-1.html#Voltage_Controlled_Oscillator:_VCO-1
+
+Making PCBs:
+http://www.electricstuff.co.uk/pcbs.html
