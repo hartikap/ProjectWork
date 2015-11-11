@@ -1334,6 +1334,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="halo-electronics">
+<description>&lt;b&gt;HALO ELECTRONIC, INC.&lt;/b&gt;&lt;p&gt;
+www.haloelectronics.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="N5">
+<description>&lt;b&gt;E-Ultra (TM) 10/100BASE-TX SOIC-16 Fast Ethernet Magnetic Modules&lt;/b&gt;&lt;p&gt;
+Source: www.haloelectronics.com .. e-ultra.pdf</description>
+<wire x1="6.25" y1="3.45" x2="6.25" y2="-3.45" width="0.2032" layer="21"/>
+<wire x1="-6.25" y1="-3.45" x2="-6.25" y2="3.45" width="0.2032" layer="21"/>
+<wire x1="-6.25" y1="3.45" x2="6.25" y2="3.45" width="0.2032" layer="21"/>
+<wire x1="6.25" y1="-3.45" x2="-6.25" y2="-3.45" width="0.2032" layer="21"/>
+<circle x="-5.08" y="-2.54" radius="0.4065" width="0" layer="21"/>
+<smd name="1" x="-4.445" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-3.175" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="-1.905" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="-0.635" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="0.635" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="1.905" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="3.175" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="4.445" y="-4.445" dx="0.6" dy="1.2" layer="1"/>
+<smd name="9" x="4.445" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="10" x="3.175" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="11" x="1.905" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="12" x="0.635" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="13" x="-0.635" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="14" x="-1.905" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="15" x="-3.175" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<smd name="16" x="-4.445" y="4.445" dx="0.6" dy="1.2" layer="1" rot="R180"/>
+<text x="-6.985" y="-3.175" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.67" y1="-4.75" x2="-4.22" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="-3.4" y1="-4.75" x2="-2.95" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="-2.13" y1="-4.75" x2="-1.68" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="-0.86" y1="-4.75" x2="-0.41" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="0.41" y1="-4.75" x2="0.86" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="1.68" y1="-4.75" x2="2.13" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="2.95" y1="-4.75" x2="3.4" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="4.22" y1="-4.75" x2="4.67" y2="-3.4" layer="51" rot="R180"/>
+<rectangle x1="4.22" y1="3.4" x2="4.67" y2="4.75" layer="51"/>
+<rectangle x1="2.95" y1="3.4" x2="3.4" y2="4.75" layer="51"/>
+<rectangle x1="1.68" y1="3.4" x2="2.13" y2="4.75" layer="51"/>
+<rectangle x1="0.41" y1="3.4" x2="0.86" y2="4.75" layer="51"/>
+<rectangle x1="-0.86" y1="3.4" x2="-0.41" y2="4.75" layer="51"/>
+<rectangle x1="-2.13" y1="3.4" x2="-1.68" y2="4.75" layer="51"/>
+<rectangle x1="-3.4" y1="3.4" x2="-2.95" y2="4.75" layer="51"/>
+<rectangle x1="-4.67" y1="3.4" x2="-4.22" y2="4.75" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1580,12 +1630,12 @@ design rules under a new name.</description>
 <element name="R2" library="resistor" package="R1206" value="" x="-31.75" y="-15.24"/>
 <element name="R3" library="resistor" package="R1206" value="" x="-31.75" y="-20.32"/>
 <element name="IC1" library="SparkFun-PowerIC" package="SOT23-5" value="" x="-36.83" y="-19.05"/>
+<element name="U$1" library="halo-electronics" package="N5" value="CD4051BM96" x="-29.21" y="-26.67"/>
 </elements>
 <signals>
 <signal name="VDD">
 <contactref element="U1" pad="4"/>
 <contactref element="U2" pad="4"/>
-<contactref element="U3" pad="4"/>
 <contactref element="U4" pad="4"/>
 <contactref element="U5" pad="4"/>
 <contactref element="U6" pad="4"/>

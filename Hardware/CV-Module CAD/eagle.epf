@@ -346,6 +346,15 @@ UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/erthenvar.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/eurorack.lbr"
 
 [Win_1]
+Type="Text Editor"
+Loc="25 25 524 524"
+State=2
+Number=3
+File="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/SparkFun-AnalogIC.lbr.rpt"
+CursorPos="0 0"
+Font="Courier,11,-1,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Control Panel"
 Loc="746 292 1345 691"
 State=2
@@ -354,3 +363,4 @@ Number=0
 [Desktop]
 Screen="1920 1200"
 Window="Win_1"
+Window="Win_2"
