@@ -11,6 +11,9 @@ https://en.wikipedia.org/wiki/WebSocket
 
 Raspberry pi documentation:
 https://www.raspberrypi.org/documentation/hardware/raspberrypi/
+I2S on raspi:
+http://www.tjaekel.com/T-DAC/files/RPi-Bplus_guideline.pdf
+
 
 Eurorack specs and examples:
 http://www.doepfer.de/DIY/a100_diy.htm

@@ -344,13 +344,16 @@ UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/User-Submitt
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/codec.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/erthenvar.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/eurorack.lbr"
+UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/Pekkas_libraries.lbr"
+UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/SparkFun-Capacitors.lbr"
+UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="522 464 1121 863"
+Loc="204 648 803 1047"
 State=2
 Number=0
 
 [Desktop]
-Screen="1920 1200"
+Screen="3600 1200"
 Window="Win_1"
