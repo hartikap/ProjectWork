@@ -347,10 +347,11 @@ UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/eurorack.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/Pekkas_libraries.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/SparkFun-Capacitors.lbr"
 UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
+UsedLibrary="F:/Ohjelmat/CadSoft Eagle/lbr/Omat/components.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="577 657 1642 1056"
+Loc="919 630 1775 1029"
 State=2
 Number=0
 
