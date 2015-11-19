@@ -15259,6 +15259,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
 <part name="C29" library="rcl" deviceset="CPOLRAD" device="" value="10uF"/>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="JP3" library="pinhead" deviceset="PINHD-2X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15268,6 +15269,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-119.38" y="109.22" size="3.048" layer="91">Voltage regulator for OP-amps</text>
 <text x="-17.78" y="25.4" size="3.048" layer="91">To Raspberry Pi</text>
 <text x="101.6" y="109.22" size="3.048" layer="91">DAC:s</text>
+<text x="-71.12" y="139.7" size="5.08" layer="91">Digital to analog conversion</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="60.96" y="88.9"/>
@@ -16020,6 +16022,7 @@ Source: AVX .. aphvc.pdf</description>
 <sheet>
 <plain>
 <text x="40.64" y="109.22" size="5.08" layer="91">Control-Voltage signal conditioning</text>
+<text x="63.5" y="-48.26" size="5.08" layer="91">CV outputs</text>
 </plain>
 <instances>
 <instance part="IC2" gate="A" x="40.64" y="73.66"/>
@@ -16577,6 +16580,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="104.14" y="53.34" size="3.81" layer="95">PCM1808</text>
 <text x="-2.54" y="60.96" size="2.54" layer="91">Caps for pcm1808</text>
 <text x="-10.16" y="15.24" size="2.54" layer="91">Caps for pcm1808</text>
+<text x="-5.08" y="91.44" size="5.08" layer="91">Analog to digital conversion</text>
 </plain>
 <instances>
 <instance part="PCM1808" gate="G$1" x="114.3" y="40.64"/>
@@ -16603,6 +16607,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="AGND2" gate="VR1" x="86.36" y="17.78"/>
 <instance part="C29" gate="G$1" x="68.58" y="40.64"/>
 <instance part="C30" gate="G$1" x="55.88" y="40.64"/>
+<instance part="JP3" gate="A" x="114.3" y="-10.16"/>
 </instances>
 <busses>
 </busses>

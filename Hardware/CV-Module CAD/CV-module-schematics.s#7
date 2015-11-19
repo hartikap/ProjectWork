@@ -12677,6 +12677,15 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-4.57" y1="-5.1" x2="-3.05" y2="5.1" layer="51"/>
 <rectangle x1="3.05" y1="-5.1" x2="4.5688" y2="5.1" layer="51"/>
 </package>
+<package name="RADIALCAN4MM">
+<smd name="1" x="-1.6" y="0" dx="1.6" dy="2.6" layer="1" rot="R90"/>
+<smd name="2" x="2" y="0" dx="1.6" dy="2.6" layer="1" rot="R90"/>
+<circle x="0.2" y="0" radius="2.865309375" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.8" x2="-2.6" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-3" y1="-2.2" x2="-2.2" y2="-2.2" width="0.127" layer="21"/>
+<text x="-2.1" y="3.7" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.1" y="-4.7" size="1.27" layer="27">&gt;value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="R-US">
@@ -12703,6 +12712,18 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="CPOL-US">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341"/>
+<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14198,6 +14219,22 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPOLRAD">
+<gates>
+<gate name="G$1" symbol="CPOL-US" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="RADIALCAN4MM">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="Pekkas_libraries">
@@ -14403,6 +14440,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$2" library="Pekkas_libraries" deviceset="PCM1808PW" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="C22" library="rcl" deviceset="CPOLRAD" device="" value="10uF"/>
+<part name="C23" library="rcl" deviceset="CPOLRAD" device="" value="10uF"/>
+<part name="C24" library="rcl" deviceset="CPOLRAD" device="" value="1uF"/>
+<part name="C25" library="rcl" deviceset="CPOLRAD" device="" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15715,6 +15756,10 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U$2" gate="G$1" x="71.12" y="53.34"/>
 <instance part="C20" gate="G$1" x="10.16" y="71.12"/>
 <instance part="C21" gate="G$1" x="10.16" y="58.42"/>
+<instance part="C22" gate="G$1" x="33.02" y="71.12"/>
+<instance part="C23" gate="G$1" x="27.94" y="50.8"/>
+<instance part="C24" gate="G$1" x="35.56" y="30.48"/>
+<instance part="C25" gate="G$1" x="55.88" y="17.78"/>
 </instances>
 <busses>
 </busses>
