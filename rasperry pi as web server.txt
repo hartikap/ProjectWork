@@ -7,3 +7,20 @@ Remote desktop:
 http://www.tightvnc.com/download.php
 https://www.raspberrypi.org/documentation/remote-access/vnc/windows.md
 http://elinux.org/RPi_VNC_Server
+
+
+
+Tunneling from web UI to local raspberry server:
+https://ngrok.com/
+
+WebSocket for streaming: https://en.wikipedia.org/wiki/WebSocket
+http://stackoverflow.com/questions/31321477/using-ngrok-with-websocket-or-socket-io
+- ngrok tunnels also websocket connections
+- encrypt the websocket-traffic!
+"If unencrypted WebSocket traffic flows through an explicit or a transparent 
+proxy server on its way to the WebSocket server, then, whether or not the 
+proxy server behaves as it should, the connection is almost certainly bound 
+to fail today (as WebSocket becomes more mainstream, proxy servers may become 
+WebSocket aware). Therefore, unencrypted WebSocket connections should be used 
+only in the simplest topologies."
+

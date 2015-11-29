@@ -1,0 +1,11 @@
+{
+  "name": "cv-controller",
+  "version": "1.0.0",
+  "description": "UI to read and adjust voltages via Raspberry Py",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pekka Hartikainen",
+  "license": "ISC"
+}

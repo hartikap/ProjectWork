@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="/css/styles.css"
+    
+    </head>
+
+    
+    <body class="cvmoduleview">
+    
+    
+       
+        <x-knobjs-knob id="knob"></x-knobjs-knob>
+
+        <input id="input" style="vertical-align:top;">
+        <script>
+          window.onload = function(){
+            var knob = document.getElementById("knob");
+            var input = document.getElementById("input");
+            knob.onchange = function(){
+              input.value = ~~knob.value;
+            }
+            input.onchange = function(){
+              knob.value = ~~input.value;
+            }
+          }
+        </script>
+        
+    
+    
+    
+    <script type="text/javascript" src="http://www.russellmcc.com/knobjs/knob.min.js"></script>
+    </body>
+</html>
