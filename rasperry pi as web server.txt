@@ -23,4 +23,4 @@ proxy server behaves as it should, the connection is almost certainly bound
 to fail today (as WebSocket becomes more mainstream, proxy servers may become 
 WebSocket aware). Therefore, unencrypted WebSocket connections should be used 
 only in the simplest topologies."
-
+node-websocket module: http://socket.io/
