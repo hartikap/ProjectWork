@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 var path = require("path");
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
 var used_port = 8081;
 
 /*/ This responds with "Hello World" on the homepage
@@ -43,6 +46,11 @@ app.use('/css',express.static(path.join(__dirname, 'css')));
 app.use('/controllers',express.static(path.join(__dirname, 'controllers')));
 app.use('/lib',express.static(path.join(__dirname, 'lib')));
 
+
+
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
 
 // ROUTERS---------------------------------------------
 
