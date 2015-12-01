@@ -3,6 +3,8 @@ https://www.youtube.com/watch?v=J6g53Hm0rq4
 
 
 http://thejackalofjavascript.com/getting-started-raspberry-pi-node-js/
+http://thejackalofjavascript.com/rpi-buzzer-node-iot-doorbell/
+
 Remote desktop:
 http://www.tightvnc.com/download.php
 https://www.raspberrypi.org/documentation/remote-access/vnc/windows.md
@@ -24,3 +26,7 @@ to fail today (as WebSocket becomes more mainstream, proxy servers may become
 WebSocket aware). Therefore, unencrypted WebSocket connections should be used 
 only in the simplest topologies."
 node-websocket module: http://socket.io/
+
+
+raspi-arduino communication:
+https://www.npmjs.com/package/serialport
