@@ -3,3 +3,5 @@
 
 - Jokaiselle käyttäjälle oma(t) kontrilli(t). Esim 8 käyttäjällä jokaisella yksi CV säädettävänä.
   -> monen käyttäjän jamisessio mahdollinen. Mikäli käyttäjiä <8, käyttäjälle useampi kontrolli
+  
+  - Mathworksin ohjaaminen käyttöliittymän kautta. 1)valitse kanava 2)valitse signaali mathworksista 3) aja signaali esim sarjaporttiin arduinolle
