@@ -1,0 +1,5 @@
+-Document-databaseen demoja? Voisi toistaa jotain tallennettuja CV-sekvenssejä ja käyttäjä voi kuunnella.
+-Omien sessioiden CV-datan tallennus?
+
+- Jokaiselle käyttäjälle oma(t) kontrilli(t). Esim 8 käyttäjällä jokaisella yksi CV säädettävänä.
+  -> monen käyttäjän jamisessio mahdollinen. Mikäli käyttäjiä <8, käyttäjälle useampi kontrolli
