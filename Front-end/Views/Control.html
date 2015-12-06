@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+    
     <head>
     
         <link rel="stylesheet" type="text/css" href="/css/styles.css"
@@ -8,6 +9,8 @@
     </head>
 
     
+
+        
         
         
         
@@ -24,9 +27,11 @@
             var input = document.getElementById("input");
             knob.onchange = function(){
               input.value = ~~knob.value;
+                socket.emit('ping', Math.round(input.value*2.55).toString());
             }
             input.onchange = function(){
               knob.value = ~~input.value;
+                socket.emit('ping', Math.round(input.value*2.55).toString());
             }
           }
         </script>
@@ -40,8 +45,8 @@
         <script type="text/javascript" src="http://www.russellmcc.com/knobjs/knob.min.js"></script>
     
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="../node_modules/socket.io-client/socket.io.js"></script>
         <script src="../controllers/control_scripts.js"></script>
-        <script src="/socket.io/socket.io.js"></script>
         
         
         </body>
