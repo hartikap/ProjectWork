@@ -10,42 +10,20 @@
     
     </head>
 
-    <body class="cvmoduleview">
+    <body>
    
-    
-        <form id="inputwindow">
-        <h1 id="h1">Welcome to CV-Module!</h1>
-            
-            <div class="form-group">
-                <label for="usernameinput">Enter your name</label>
-                <input type="text" class="form-control" id="usernameinput" placeholder="username">
-            </div>
-            
-            <button type="button" class="btn btn-primary" id="button1">Log in</button>
-        
-        
-        </form>
-    
-    
-    
-    
-    
-    
+    <div ng-view></div>
+                
         
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"> </script>
-        
-    
+        <script src="/lib/angular-resource.min.js"></script>
+        <scipt src="/lib/angular-route.min.js"></scipt>
         <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        
         <script src="../controllers/login_script.js"></script>
-        
+        <script src="/Modules/mainModule.js"></script>
+        <script src="/factories/factory.js"></script>
+        <script src="/controllers/loginController.js"></script>
+
     </body>
-
-
-
-
-
-
-
 
 </html>

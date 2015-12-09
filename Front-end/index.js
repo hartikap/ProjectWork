@@ -20,7 +20,10 @@ app.post('/', function (req, res) {
    res.send('Hello POST');
 })
 
-
+app.get('/', function (req, res) {
+    
+    res.send('Hello get');
+})
 
 
 app.use('/',express.static(path.join(__dirname, 'Views')));
