@@ -30,3 +30,6 @@ node-websocket module: http://socket.io/
 
 raspi-arduino communication:
 https://www.npmjs.com/package/serialport
+
+arduino and nodeJS serial communication:
+http://www.codeproject.com/Articles/389676/Arduino-and-the-Web-using-NodeJS-and-SerialPort
