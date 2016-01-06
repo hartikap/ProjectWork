@@ -4923,7 +4923,6 @@ Source: AVX .. aphvc.pdf</description>
 <text x="33.02" y="-2.54" size="2.54" layer="91">Caps for pcm1808</text>
 <text x="-5.08" y="91.44" size="5.08" layer="91">Analog to digital conversion</text>
 <text x="139.7" y="15.24" size="2.54" layer="91">Connector to RasPi</text>
-<text x="172.72" y="55.88" size="1.778" layer="91">Muuta tämä kahdeksi 3.5mm mono socketiksi</text>
 </plain>
 <instances>
 <instance part="C20" gate="G$1" x="50.8" y="-10.16"/>
