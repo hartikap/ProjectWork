@@ -1,0 +1,26 @@
+DISPLAY ALL;
+DISPLAY None;
+DISPLAY Bottom Pads Vias Dimension;
+RATSNEST;
+EXPORT IMAGE Bottom.png MONOCHROME 600;
+
+DISPLAY ALL
+DISPLAY None
+DISPLAY Top Pads Vias Dimension
+RATSNEST
+EXPORT IMAGE Top.png MONOCHROME 600
+
+
+DISPLAY ALL
+DISPLAY None;
+DISPLAY Pads Vias Dimension bPlace bOrigins bNames bStop bKeepout Drills Holes
+RATSNEST
+EXPORT IMAGE Bottom_placement.png MONOCHROME 1000
+
+DISPLAY ALL
+DISPLAY None
+DISPLAY Pads Vias Dimension tPlace tOrigins tNames tStop tKeepout Drills Holes
+RATSNEST
+EXPORT IMAGE Top_placement.png MONOCHROME 1000
+
+DISPLAY Unrouted Bottom Top Pads Vias Dimension bPlace bOrigins bNames bStop bKeepout Drills Holes tPlace tOrigins tNames tStop tKeepout

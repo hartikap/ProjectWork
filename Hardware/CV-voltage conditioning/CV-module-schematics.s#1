@@ -8235,7 +8235,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <sheet>
 <plain>
 <text x="50.8" y="124.46" size="5.08" layer="91">Control-Voltage signal conditioning</text>
-<text x="119.38" y="-55.88" size="5.08" layer="91">CV outputs</text>
+<text x="76.2" y="-22.86" size="5.08" layer="91">CV outputs</text>
 </plain>
 <instances>
 <instance part="IC2" gate="A" x="40.64" y="73.66"/>
