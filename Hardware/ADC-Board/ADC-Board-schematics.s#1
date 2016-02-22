@@ -6951,20 +6951,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <nets>
 <net name="5VCON" class="0">
 <segment>
-<wire x1="-55.88" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="-78.74" y="58.42" size="2.54" layer="95"/>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="-63.5" y1="58.42" x2="-76.2" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="58.42" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-76.2" y="58.42"/>
-<wire x1="-55.88" y1="48.26" x2="-63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-63.5" y1="48.26" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-63.5" y="58.42"/>
-<pinref part="TLV71333" gate="G$1" pin="IN"/>
-<pinref part="TLV71333" gate="G$1" pin="EN"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="-81.28" y1="0" x2="-93.98" y2="0" width="0.1524" layer="91"/>
 <label x="-96.52" y="0.762" size="2.54" layer="95"/>
@@ -7169,6 +7155,20 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="83.82" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="78.74" y="55.88" size="2.54" layer="95"/>
 <pinref part="PCM1808" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="-55.88" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
+<label x="-78.74" y="58.42" size="2.54" layer="95"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="58.42" x2="-76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="58.42" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-76.2" y="58.42"/>
+<wire x1="-55.88" y1="48.26" x2="-63.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="48.26" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-63.5" y="58.42"/>
+<pinref part="TLV71333" gate="G$1" pin="IN"/>
+<pinref part="TLV71333" gate="G$1" pin="EN"/>
 </segment>
 </net>
 <net name="N$31" class="0">
