@@ -7783,19 +7783,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="D5" library="diode" deviceset="DIODE-" device="DO-214AC"/>
 <part name="IN-R" library="Pekkas_libraries" deviceset="3MM5-PLUG" device=""/>
 <part name="IN-L" library="Pekkas_libraries" deviceset="3MM5-PLUG" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4k7"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4k7"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="20"/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4k7"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4k7"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="20"/>
 <part name="U2" library="Pekkas_libraries" deviceset="OPA2348AIDCNTG4" device=""/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="82pF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="82pF"/>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
@@ -7803,6 +7801,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
+<part name="VAR1" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
+<part name="VAR2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
 </parts>
 <sheets>
 <sheet>
@@ -7811,6 +7811,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="33.02" y="-2.54" size="2.54" layer="91">Caps for pcm1808</text>
 <text x="-5.08" y="91.44" size="5.08" layer="91">Analog to digital conversion</text>
 <text x="127" y="15.24" size="2.54" layer="91">Connector to RasPi</text>
+<text x="269.24" y="71.12" size="1.778" layer="91">potikka ks exel</text>
+<text x="269.24" y="35.56" size="1.778" layer="91">potikka ks exel</text>
 </plain>
 <instances>
 <instance part="C20" gate="G$1" x="50.8" y="-10.16"/>
@@ -7849,12 +7851,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="D5" gate="G$1" x="177.8" y="-2.54" rot="R90"/>
 <instance part="IN-R" gate="G$1" x="320.04" y="17.78"/>
 <instance part="IN-L" gate="G$1" x="320.04" y="2.54"/>
-<instance part="R1" gate="G$1" x="271.78" y="73.66"/>
 <instance part="R2" gate="G$1" x="264.16" y="63.5" rot="R90"/>
 <instance part="R3" gate="G$1" x="246.38" y="63.5" rot="R90"/>
 <instance part="R4" gate="G$1" x="246.38" y="83.82" rot="R90"/>
 <instance part="R5" gate="G$1" x="177.8" y="45.72" rot="R180"/>
-<instance part="R6" gate="G$1" x="271.78" y="33.02" rot="R180"/>
 <instance part="R7" gate="G$1" x="264.16" y="25.4" rot="R270"/>
 <instance part="R8" gate="G$1" x="246.38" y="40.64" rot="R270"/>
 <instance part="R9" gate="G$1" x="246.38" y="25.4" rot="R270"/>
@@ -7869,6 +7869,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="AGND7" gate="VR1" x="264.16" y="48.26"/>
 <instance part="AGND8" gate="VR1" x="304.8" y="-10.16"/>
 <instance part="AGND9" gate="VR1" x="170.18" y="27.94"/>
+<instance part="VAR1" gate="G$1" x="251.46" y="22.86"/>
+<instance part="VAR2" gate="G$1" x="251.46" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -8185,7 +8187,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C24" gate="G$1" pin="-"/>
 <wire x1="266.7" y1="73.66" x2="264.16" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -8197,8 +8198,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="254" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="254" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="73.66" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
 <junction x="246.38" y="73.66"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -8207,11 +8209,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="238.76" y1="73.66" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="+IN_B"/>
 <wire x1="238.76" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="VAR2" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="66.04" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
+<junction x="251.46" y="73.66"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="C25" gate="G$1" pin="-"/>
 <wire x1="266.7" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -8224,7 +8228,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="C25" gate="G$1" pin="+"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="254" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="254" y1="33.02" x2="251.46" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="33.02" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="33.02" x2="246.38" y2="30.48" width="0.1524" layer="91"/>
@@ -8233,6 +8238,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="238.76" y1="33.02" x2="238.76" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="+IN_A"/>
 <wire x1="238.76" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="VAR1" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="27.94" x2="251.46" y2="33.02" width="0.1524" layer="91"/>
+<junction x="251.46" y="33.02"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -8282,18 +8290,26 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="17.78" x2="246.38" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="20.32" x2="264.16" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="17.78" x2="246.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="17.78" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
 <junction x="246.38" y="17.78"/>
+<pinref part="VAR1" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="17.78" x2="246.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="20.32" x2="251.46" y2="17.78" width="0.1524" layer="91"/>
+<junction x="251.46" y="17.78"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="58.42" x2="264.16" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="55.88" x2="251.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="55.88" x2="246.38" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="55.88" x2="246.38" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="AGND7" gate="VR1" pin="AGND"/>
 <wire x1="264.16" y1="55.88" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
 <junction x="264.16" y="55.88"/>
+<pinref part="VAR2" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="55.88" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
+<junction x="251.46" y="55.88"/>
 </segment>
 <segment>
 <pinref part="IN-R" gate="G$1" pin="GND"/>
@@ -8321,7 +8337,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="IN-R" gate="G$1" pin="+"/>
 <wire x1="309.88" y1="20.32" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="20.32" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="50.8" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="73.66" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="1"/>
@@ -8334,7 +8349,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="IN-L" gate="G$1" pin="+"/>
 <wire x1="309.88" y1="5.08" x2="281.94" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="5.08" x2="281.94" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="33.02" x2="276.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="3"/>
 <wire x1="317.5" y1="48.26" x2="287.02" y2="48.26" width="0.1524" layer="91"/>

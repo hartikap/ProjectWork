@@ -1670,8 +1670,8 @@ design rules under a new name.</description>
 <element name="D3" library="diode" package="DO-214AC" value="" x="3.81" y="-8.89"/>
 <element name="D4" library="diode" package="DO-214AC" value="" x="3.81" y="-13.97"/>
 <element name="D5" library="diode" package="DO-214AC" value="" x="3.81" y="-19.05"/>
-<element name="U$2" library="Pekkas_libraries" package="3MM5-PLUG" value="3MM5-PLUG" x="6.35" y="-30.48"/>
-<element name="U$3" library="Pekkas_libraries" package="3MM5-PLUG" value="3MM5-PLUG" x="6.35" y="-44.45"/>
+<element name="U$2" library="Pekkas_libraries" package="3MM5-PLUG" value="3MM5-PLUG" x="77.65" y="20.52"/>
+<element name="U$3" library="Pekkas_libraries" package="3MM5-PLUG" value="3MM5-PLUG" x="77.95" y="9.05"/>
 </elements>
 <signals>
 <signal name="GND">
