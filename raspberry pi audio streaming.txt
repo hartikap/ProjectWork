@@ -1,0 +1,12 @@
+Recording through card 1 device 0 (USB audio in this case):
+arecord -f S16_LE -D hw:1,0 -r 48000 test.wav
+
+Playing back:
+aplay -D hw:1,0 test.wav
+
+
+Linkkejä:
+http://blog.tkjelectronics.dk/2013/06/how-to-stream-video-and-audio-from-a-raspberry-pi-with-no-latency/
+valmis serveri: http://www.gstreamer.com/
+webrtc-moduuleja:
+https://bloggeek.me/nodejs-webrtc/

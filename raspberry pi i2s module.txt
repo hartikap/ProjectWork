@@ -1,0 +1,3 @@
+I2S raspberry pi:
+https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=8496&start=575#p604231
+http://www.peteronion.org.uk/I2S/
